@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<urlset>
+    <url>
+        <loc>https://www.juliapri.pink/</loc>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.juliapri.pink/social/</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.juliapri.pink/projects/</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.juliapri.pink/blog/</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.juliapri.pink/contact/</loc>
+        <priority>0.80</priority>
+    </url>
+</urlset>

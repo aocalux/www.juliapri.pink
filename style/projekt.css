@@ -1,0 +1,25 @@
+.projektselect a {
+    color: #d1cfcf;
+}
+
+.projektselect a:hover {
+    color: #a19f9f;
+}
+
+.active {
+    font-weight: bold;
+}
+
+@media (prefers-color-scheme: light) {
+    .projektselect a {
+        color: #15141A;
+    }
+
+    .projektselect a:hover {
+        color: rgb(112, 112, 112);
+    }
+
+    .active {
+        font-weight: bold;
+    }
+}

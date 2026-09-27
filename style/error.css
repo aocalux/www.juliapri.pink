@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+}
+
+.error {
+    font-weight: bolder;
+    font-size: 400%;
+}

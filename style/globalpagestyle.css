@@ -1,0 +1,362 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #141414;
+    color: lightcyan;
+    font-size: larger;
+}
+
+.topbar .isActive {
+    color: white;
+}
+
+.topbar a {
+    color: #141414;
+    font-weight: bold;
+}
+
+.isActive {
+    border: 2px;
+    color: #ff278c;
+    background-color: rgba(228, 48, 147, 0.753);
+    padding: 2px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.content a {
+    color: rgb(255, 71, 163);
+}
+
+.content a:hover {
+    color: rgb(252, 121, 184);
+    text-decoration: underline;
+}
+
+.content h5 {
+    color: rgb(255, 71, 163);
+}
+
+.content h4 {
+    color: rgb(255, 71, 163);
+}
+
+.content h3 {
+    color: rgb(255, 71, 163);
+}
+
+.content h2 {
+    color: rgb(255, 71, 163);
+}
+
+.content h1 {
+    color: rgb(255, 71, 163);
+}
+
+.content .siteTitle {
+    text-decoration: underline;
+    color: darkorange
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 71, 163);
+    text-decoration: none;
+}
+
+.isActive:hover {
+    color: #dbbdd8;
+}
+
+.title {
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 300%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    background: linear-gradient(to right, #ff3c87, #a70d79);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+
+.title img {
+    margin: -15px;
+    width: 20%;
+    height: 20%;
+}
+
+.topbar {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(88, 40, 91);
+    background: linear-gradient(to right, #b3b3b3, #d4c1d3);
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    border-radius: 10px;
+}
+
+.bottombar {
+    text-align: left;
+    font-weight: normal;
+    color: lightgray;
+    font-size: small;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bottombar a:hover {
+    text-decoration: underline;
+    color: #ff216b69;
+}
+
+.bottombarTrenner {
+    background: linear-gradient(to right, #e1e1e1, #d9d8d8);
+    border-radius: 10px;
+    padding: 2px;
+    background-color: rgb(88, 40, 91);
+    border-color: rgb(88, 40, 91);
+    margin-bottom: 5px;
+}
+
+.notMobileTopBar {
+    display: inline;
+}
+
+.mobileTopBar {
+    display: none;
+}
+
+.mobileBottomBar {
+    display: none;
+}
+
+.indent {
+    margin-left: 30px;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: whitesmoke;
+    background: rgb(253, 65, 127);
+}
+
+::selection {
+    color: whitesmoke;
+    background: rgb(253, 65, 127);
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 1024px) {
+    .content {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .title {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .topbar {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .bottombar {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    /* Navbar for Mobile */
+    @media only screen and (max-width: 900px) {
+        body {
+            font-size: large;
+        }
+
+        .topbar {
+            font-size: 120%;
+        }
+    }
+
+    /* Navbar for Mobile */
+    @media only screen and (max-width: 780px) {
+        .topbar {
+            font-size: 110%;
+        }
+
+        .title {
+            letter-spacing: 2px;
+            word-spacing: 4px;
+        }
+    }
+
+    /* Navbar for Mobile */
+    @media only screen and (max-width: 700px) {
+        .topbar {
+            font-size: larger;
+        }
+
+        .notMobileTopBar {
+            display: none;
+        }
+
+        .mobileBottomBar {
+            display: block;
+        }
+
+        .mobileTopBar {
+            display: flex;
+            margin-top: 8px;
+        }
+
+        .title {
+            letter-spacing: 1px;
+            word-spacing: 2px;
+        }
+    }
+}
+
+/* For lager screens */
+@media only screen and (min-width: 1400px) {
+    .content {
+        width: 1065px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title {
+        width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .topbar {
+        width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bottombar {
+        width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #F9F9FB;
+        color: #15141A;
+    }
+
+    .topbar .isActive {
+        color: #F5F5F5;
+    }
+
+    .topbar a {
+        color: #F5F5F5;
+    }
+
+    .isActive {
+        color: #e122b1;
+        background-color: rgba(228, 48, 132, 0.924);
+    }
+
+    .content a {
+        color: rgb(218, 44, 131);
+    }
+
+    .content a:hover {
+        color: rgb(141, 27, 84);
+    }
+
+    .content h5 {
+        color: #15141A;
+    }
+
+    .content h4 {
+        color: #15141A;
+    }
+
+    .content h3 {
+        color: #15141A;
+    }
+
+    .content h2 {
+        color: #15141A;
+    }
+
+    .content h1 {
+        color: #15141A;
+    }
+
+    .content .siteTitle {
+        color: darkorange;
+    }
+
+    a {
+        color: #15141A;
+    }
+
+    a:hover {
+        color: rgb(218, 44, 131);
+    }
+
+    .topbar a:hover {
+        color: rgb(218, 44, 131);
+    }
+
+    .topbar .isActive:hover {
+        color: #dfa2de;
+    }
+
+    .title {
+        color: #15141A;
+        background: linear-gradient(to right, #ff2289, #c01386);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .topbar {
+        background-color: #F5F5F5;
+        background: black;
+        color: black;
+    }
+
+    .bottombar {
+        color: #000000;
+    }
+
+    .bottombar a:hover {
+        color: #5a5a5a
+    }
+
+    .bottombarTrenner {
+        background: black;
+        background-color: #000000;
+        border-color: #000000;
+    }
+}
