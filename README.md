@@ -1,5 +1,6 @@
 # www.juliapri.pink
 
-**This page is currently being updated.**
+**This page is currently being updated.** We will be back on November 2nd 2026.
 
-[press@unnamed-media.com](mailto:press@unnamed-media.com)
+Contact: [prickartz@staff.aocalux.com](mailto:prickartz@staff.aocalux.com)  
+Press contact: [press@unnamed-media.com](mailto:press@unnamed-media.com)
