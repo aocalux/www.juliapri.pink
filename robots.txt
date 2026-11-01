@@ -1,0 +1,27 @@
+# This robots.txt file controls crawling of URLs under https://www.juliapri.pink.
+
+# Block the Internet Archive / Wayback Machine crawlers
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: *
+Disallow: /cv/
+Disallow: /go/
+Disallow: /mail/
+Disallow: /404.html
+Disallow: /impressum/
+Disallow: /README.md
+Disallow: /admin/
+Disallow: /datenschutz.pdf/
+Disallow: /dateien/no_search/
+Disallow: /blog/
+Disallow: /vorlage_weiterleitung.html
+Disallow: /style/fonts/
+Disallow: /.nojekyll
+Disallow: /.well-known
+Disallow: /datenschutz/
+Disallow: /_fileupload/
+Sitemap: https://www.juliapri.pink/sitemap.xml

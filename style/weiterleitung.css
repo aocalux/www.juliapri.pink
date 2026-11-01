@@ -1,0 +1,13 @@
+body {
+    background-color: #141414;
+    color: lightcyan;
+    font-size: larger;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-size: larger;
+    }
+}

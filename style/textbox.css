@@ -1,0 +1,96 @@
+.code-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.code-container big {
+  margin-left: 2px;
+  line-height: 32px;
+}
+
+.textare-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+  flex: 1;
+  height: 150px;
+  font-family: monospace;
+  font-size: larger;
+  resize: vertical;
+  min-height: 150px;
+  max-height: 315px;
+  white-space: pre-wrap;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 0.3%;
+}
+
+#copyButton {
+  background-color: rgb(218, 44, 131);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#copyButton:hover {
+  background-color: rgb(161, 37, 99);
+}
+
+#downloadButton {
+  background-color: rgb(218, 44, 131);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#downloadButton:hover {
+  background-color: rgb(161, 37, 99);
+}
+
+@media (prefers-color-scheme: dark) {
+  .code-container {
+    border: 1px solid #444;
+    background-color: #222;
+  }
+
+  textarea {
+    color: whitesmoke;
+    background-color: #333;
+  }
+
+  #copyButton {
+    background-color: rgb(252, 121, 184);
+    color: white;
+  }
+
+  #copyButton:hover {
+    background-color: rgb(226, 60, 140);
+  }
+
+  #downloadButton {
+    background-color: rgb(252, 121, 184);
+    color: white;
+  }
+
+  #downloadButton:hover {
+    background-color: rgb(226, 60, 140);
+  }
+}
