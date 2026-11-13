@@ -13,6 +13,8 @@ Disallow: /go/
 Disallow: /mail/
 Disallow: /404.html
 Disallow: /impressum/
+Disallow: /imprint/
+Disallow: /privacy/
 Disallow: /README.md
 Disallow: /admin/
 Disallow: /datenschutz.pdf/
